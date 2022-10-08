@@ -72,3 +72,32 @@
     background-color: rgb(80, 63, 188);
     color: white;
 }
+.ex-time{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+   
+}
+.ex-time span{
+    margin-left: 12px;
+    font-size: 12px;
+}
+
+.brck-time{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px
+}
+.brck-time span{
+    margin-left: 12px;
+    font-size: 12px;
+}
+
+.btn-activity{
+    background-color: rgb(84, 63, 217);
+    color: white;
+    border: none;
+    padding: 15px 50px;
+    border-radius: 20px;
+}
