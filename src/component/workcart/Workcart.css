@@ -32,3 +32,43 @@
     
    }
    
+   .Cart-secondinfo p{
+    margin-top: 0px;
+}
+.heder-information{
+    text-align: left;
+    margin-left: 10px;
+    position:absolute;
+
+}
+.my-info p{
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+    border: 1px solid blue;
+   
+}
+.my-info small{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+.my-info h6{
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+.btn-time button{
+   background-color: white;
+   border-radius: 25%;
+   margin-right: 10px;
+   border: none;
+   padding: 5px;
+}
+
+.btn-time button:hover{
+    background-color: rgb(80, 63, 188);
+    color: white;
+}
