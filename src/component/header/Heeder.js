@@ -5,7 +5,7 @@ const Heeder = () => {
     return (
         <div className='inpu-container'>
            <img src={logo} alt=''></img>
-           <h2>Home active tutoring</h2>
+           <h2>Home active tutoring </h2>
         </div>
         )
 };
