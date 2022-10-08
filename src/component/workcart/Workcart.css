@@ -11,3 +11,24 @@
     display: flex;
    
 }
+.second-cart{
+    background-color: rgb(225, 222, 222);
+    margin: 20px ;
+    width: 300px;
+    text-align: center;
+    
+}
+.Cart-secondinfo{
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+   
+}
+.Cart-secondinfo img{
+    width: 50px;
+    margin-top: 5px;
+    border-radius: 50px;
+    margin-right: 10px;
+    
+   }
+   
