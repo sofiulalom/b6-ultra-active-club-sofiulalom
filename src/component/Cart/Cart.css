@@ -15,3 +15,14 @@
     font-size: 12px;
     margin: 5px;
 }
+.btn-item{
+    background-color:tan;
+    border:none;
+    width: 100%;
+    padding: 10px;
+    
+    
+}
+.btn-item:hover{
+    background-color: orange;
+}
