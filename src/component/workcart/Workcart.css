@@ -104,3 +104,14 @@
 .btn-activity:hover{
     background-color: rgb(27, 27, 199);
 }
+@media only screen and (max-width: 600px) {
+    .cart-info{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .cart-info{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
