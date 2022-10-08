@@ -7,7 +7,7 @@ const Heeder = () => {
            <img src={logo} alt=''></img>
            <h2>Home active tutoring </h2>
         </div>
-        )
+    ) 
 };
 
 export default Heeder;
