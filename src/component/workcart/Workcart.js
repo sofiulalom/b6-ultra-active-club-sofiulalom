@@ -5,12 +5,20 @@ import img from'./../../sofiulalom.jpg';
 
 const Workcart = () => {
     const [products,setProducts] =useState([]);
+    const [time, setTime]=useState(0)
 
    useEffect(()=>{
     fetch('products.json')
     .then(res => res.json())
     .then(data => setProducts(data))
    },[]);
+
+   const addMeCart=(somoy)=>{
+    
+     const newTime=time+parseInt(somoy);
+    setTime(newTime)
+   }
+
    return (
     <div className='heder-information'>
      <h2>Select Actiive Work</h2>
@@ -21,7 +29,8 @@ const Workcart = () => {
         products.map(product => <Cart 
             key={product.id}
             product={product}
-            
+            addMeCart={addMeCart}
+            time={time}
 
             ></Cart>)
      }
@@ -50,7 +59,7 @@ const Workcart = () => {
             </div>
             <div>
               <h5>Exercise Details</h5>
-              <p className='ex-time'>Exercise time <span>  miniuts</span></p>
+              <p className='ex-time'>Exercise time <span>{time}  miniuts</span></p>
                 <p className='brck-time'>Breck time <span> miniuts</span></p>
               <button className='btn-activity'>Activity Completed</button>
             </div>
